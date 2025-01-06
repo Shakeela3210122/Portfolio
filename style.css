@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+background: rgb(194, 128, 128);
+backdrop-filter:blur(10px);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: darksalmon;
+    text-shadow: 0 0 25px darksalmon;
+    transform: scale(1.1);
+    
+}
+span{
+    color: darksalmon;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-size: 200;
+    font-weight: 300;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    }
+
+.navbar a:hover,
+.navbar a:active{
+    color: darksalmon;
+    border-bottom: 3px solid darksalmon;
+}
+.contact{
+padding: 10px 28 px;
+background-color: white;
+color: white;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size: 16px;
+letter-spacing: 1px;
+font-weight: 600;
+transition: 0.3s ease;
+box-sizing: 2px;
+}
+.contact:hover{
+    background-color: darksalmon;
+    box-shadow: 0 0 25px darksalmon;
+    box-shadow: 0 0 50px darksalmon;
+    color: white;
+}
